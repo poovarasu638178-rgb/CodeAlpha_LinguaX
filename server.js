@@ -1,5 +1,5 @@
 /**
- * LinguaX — Simple Node.js Static Server
+ * Langux — Simple Node.js Static Server
  */
 
 const http = require('http');
@@ -36,5 +36,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`\n  🌐  LinguaX running at http://localhost:${PORT}\n`);
+  console.log(`\n  🌐  Langux running at http://localhost:${PORT}\n`);
 });
