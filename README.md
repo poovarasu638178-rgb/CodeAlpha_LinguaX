@@ -8,7 +8,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-[![Live Demo](https://img.shields.io/badge/Launch-Live_Demo-5A2132?style=for-the-badge&logo=vercel)](http://localhost:3000)
+[![Live Demo](https://img.shields.io/badge/Launch-Live_Demo-5A2132?style=for-the-badge&logo=vercel)](https://linuguax.netlify.app)
 
 <img src="https://via.placeholder.com/1200x600/5A2132/EFE9E9?text=LinguaX+Translation+Engine" alt="LinguaX Preview" width="100%" />
 
