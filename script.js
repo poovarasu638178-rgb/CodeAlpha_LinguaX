@@ -269,7 +269,8 @@
       const apiKey = '7918ac7191e57b114ae9bb4fe19a56ff73f6a55a38f210ce21b0fce4904ec0dc';
       // Callum (N2lVS1w4EtoT3dr4eOWO) is a deep, formal UK male voice perfect for Jarvis
       const voiceId = 'N2lVS1w4EtoT3dr4eOWO'; 
-      const url = `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}?output_format=mp3_44100_128`;
+      // Use the /stream endpoint and optimize for latency
+      const url = `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}/stream?optimize_streaming_latency=2&output_format=mp3_44100_128`;
       
       const response = await fetch(url, {
         method: 'POST',
@@ -279,7 +280,7 @@
         },
         body: JSON.stringify({
           text: text,
-          model_id: 'eleven_multilingual_v2',
+          model_id: 'eleven_turbo_v2_5', // Turbo model generates audio instantly
           voice_settings: {
             stability: 0.6,
             similarity_boost: 0.8,
